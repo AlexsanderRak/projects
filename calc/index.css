@@ -1,0 +1,48 @@
+div{
+  background: black;
+  width: 200px;
+  padding: 25px;
+  margin: 25px; 
+}
+
+div span button{ 
+  width: 47px;
+  padding: 0px;
+  margin-left: 0px;
+}
+
+div p button{
+  width: 147px;
+  padding: 3px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+div p .button1{
+  width: 47px;
+  padding: 3px;
+  margin-top: -10px;
+  margin-left: 2px;
+}
+
+div p input{
+  width: 200px;
+  padding: 3px;
+  background:  rgb(184, 169, 169);
+  margin-left: 1px;
+  font-family: "Bittypix-Countdown";
+}
+
+button{
+  background: rgb(184, 169, 169);
+}
+
+@font-face {
+  font-family: "Bittypix-Countdown"; 
+  src: url("/home/portos/Рабочий стол/It-kamasytra.com/04/06/fonts/fonts/Bittypix-Countdown.eot"); 
+  src: url("/home/portos/Рабочий стол/It-kamasytra.com/04/06/fonts/Bittypix-Countdown.eot?#iefix") format("embedded-opentype");
+  src: url("/home/portos/Рабочий стол/It-kamasytra.com/04/06/fonts/Bittypix-Countdown.woff") format("woff"); 
+  src: url("/home/portos/Рабочий стол/It-kamasytra.com/04/06/fonts/Bittypix-Countdown.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+  } 
