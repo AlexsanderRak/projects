@@ -1,0 +1,170 @@
+
+@media screen and (max-width: 1024px) {
+
+    .phoneNumber,.delivery{
+        display: none;
+    }    
+    .logo,.logo2,.logo .search input{
+        background: #324a78;
+    }
+    .logo .burger{
+        display: block;
+        position: absolute;
+        margin-top: 26px;
+        margin-left: 30px;
+        width: 16px;
+        height: 13px;
+    }
+    .burgerMenu{
+        display: block;
+        position: absolute;
+        background: #324a78;
+        width: 100%;
+        z-index: 1;
+        margin-top: -150px;
+        -webkit-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s;
+    }
+    .burgerMenu ul div:hover{
+        background: #3e5d96;
+    }
+    .burgerMenu_active{
+        margin-top: 60px;
+    }
+    .logo2 div p{
+        font-size: 23px;
+    }
+    .logo2 .search{
+        width: 700px;
+        margin-left: 30px;
+    }
+    .logo2 .basket{
+        display: block;
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 55%;
+        margin-right: 25px;
+    }
+    .navbar,.filter{
+        display: none;
+    }
+    .header{
+        height: 110px;
+        border-bottom: 1px solid #dddddd;
+    }
+    .discount{
+        border: 1px solid #dddddd;
+        border-top: none;
+        border-right: none;
+    }
+    .filterSvg {
+        display: block;
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 93%;
+        z-index: 0;
+        width: 30px;
+        height: 30px;
+    }
+    .sectionName{
+        display: block;
+        margin-top: 10px;
+        margin-left: 30px;
+    
+    }
+    .goods{
+        width: 100%;
+    }
+    .discount{
+        width: 550px;
+    }
+    .goods .other{
+        width: 275px;
+    }
+    .other img{
+        margin-top: 22px;
+    }
+    .goods div:nth-child(4n) {
+        border-left: 1px solid #dddddd;
+    }
+    .goods div:nth-child(3n) {
+        border-left: none;
+    }
+    }
+    @media screen and (max-width: 768px) {
+     .discount{
+        height: 100%;
+        width: 85%;
+        border-left: none;
+        border-right: none;
+    }
+    .discount .description .prise{
+        height: 5%;
+        width: 98%;
+    }
+    .discount div p{
+        margin-bottom: 2%;
+    }
+    .discount .photo{
+        margin: 2% 15%;
+    }
+    
+    .goods .other{
+        height: 100%;
+        width: 49%;
+        margin: 0;
+    }
+    .goods div:nth-child(3n) {
+        border-left: 1px solid #dddddd;
+    }   
+    .goods div:nth-child(2n) {
+        border-left: none;
+    }  
+    .other .prise{
+        width: 98%;
+    }
+    }
+    @media screen and (max-width: 436px) {
+    .discount{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .discount .description{
+        width: 98%;
+        margin: 0;
+        padding: 5px;
+    }
+    .filterSvg {
+        margin-left: 90%;
+    }
+    .goods .other{
+      width: 85%;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+    .other img{
+        margin: 2% 25%;
+    }
+    .goods div:nth-child(1n) {
+        border-left: none;
+    }
+    .logo .search{
+        border: none;
+        width: 5%;
+        margin-left: 30%;
+        margin-right: 8%;
+    }
+    .logo .search input{
+        display: none;
+    }
+    #search{
+        display: block;
+    }
+    
+    }
