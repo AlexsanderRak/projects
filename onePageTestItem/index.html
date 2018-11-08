@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="shortcut icon" href="img/if_eye_118676 (1).png">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background"></div>
+    <div id="test">
+        <header>
+            <div class="greenline"></div>
+            <h2>Test Project</h2>
+        </header>
+        <main>
+            <div class="wrapper">
+                <div class="top">
+                    <h1>World<q></q>s most <span style="color:#a3c755">amazing</span> test tiles</h1>
+                </div>
+                <div class="content">
+                    <div class="tile" v-for="item in dataArray">
+                        <div class="tileImg">
+                            <img :src="item.photo">
+                        </div>
+                        <div class="tileContent">
+                            <div class="description">
+                                <p>{{ item.description }}</p>
+                            </div>
+                            <div class="tegs">
+                                <p>{{ item.tegs }}</p>
+                            </div>
+                            <div class="likes" id="lk">
+                                <img src="img/if_eye_118676 (1).png">
+                                <p> {{item.likes.watch}} </p>
+                                <img src="img/if_heart-01_186400.png" @click.once="likesCount(item.likes.like); item.likes.like++  ">
+                                <p> {{ item.likes.like }} </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <script src="js/index.js"></script>
+</body>

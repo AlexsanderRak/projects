@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "Stolzl-Book";
+    /* Имя шрифта */
+    src: url("../font/Stolzl-Book.otf");
+    /* Путь к файлу со шрифтом */
+}
+
+body {
+    margin: 0;
+    padding: 0
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    background: url(../img/cyprus-3184019_1920.jpg)no-repeat;
+    background-size: 100% 100%;
+}
+
+.greenline {
+    width: 100%;
+    height: 5px;
+    background: #a3c755;
+}
+
+header {
+    background: #eaeaea;
+    height: 67px;
+}
+
+header h2 {
+    font-family: "Stolzl-Book";
+    font-weight: lighter;
+    color: #3d6f2f;
+    margin-left: 52px;
+    font-size: 26px;
+    margin-top: 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    padding-bottom: 0.7%;
+    background: #000000ce;
+}
+
+.wrapper {
+    width: 80%;
+    margin-top: 45px;
+}
+
+.top {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.top h1 {
+    margin-bottom: 5%;
+    font-family: "Stolzl-Book";
+    font-weight: normal;
+    font-size: 45px;
+    letter-spacing: 4px;
+    color: #ffffff;
+}
+
+q {
+    font-family: "Stolzl-Book";
+    font-weight: normal;
+    color: #ffffff;
+    quotes: """\2019";
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background: #eaeaea;
+    border-radius: 3px;
+}
+
+.tileContent {
+    padding-left: 15px;
+}
+
+.description p {
+    width: 90%;
+    font-family: "Stolzl-Book";
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #000000;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.tegs p {
+    width: 95%;
+    font-family: "Stolzl-Book";
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #49bbf0;
+}
+
+.tileImg img {
+    width: 100%;
+    height: 180px;
+    transition: 0.5s linear;
+}
+
+.tile:hover .tileImg img {
+    transform: scale(1.2);
+}
+
+.likes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.likes p {
+    font-family: "Stolzl-Book";
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #515151;
+    margin-right: 10px;
+}
+
+.likes img {
+    cursor: pointer;
+    margin-right: 3px;
+    width: 14px;
+    height: 12px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #6b6b6b;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #a3c755;
+    border-radius: 10px;
+}
