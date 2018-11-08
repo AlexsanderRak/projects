@@ -1,0 +1,69 @@
+body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+body .wrapper{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.navbar-header{
+    width: 100%;
+    height: 40px;
+    background: rgb(29, 35, 124);
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width: 540px) {
+	table {
+		overflow-x: auto;
+		display: block;
+	}
+}
+
+.addUser{
+    text-align:  auto;
+}
+
+.tableUsers{
+    margin-top: 1%;
+}
+
+.addUser input{
+    border: 2px solid rgb(4, 10, 100)  ;
+    text-align:  center;
+    width: 150px;
+    margin: 1px;
+}
+
+table {
+    border: 2px solid #42b983;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+th {
+    background-color: #42b983;
+    color: rgba(255,255,255,0.66);
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+  
+th, td {
+    padding: 10px 20px;
+}
+
+input:valid {
+    border-color: green;
+  }
+
