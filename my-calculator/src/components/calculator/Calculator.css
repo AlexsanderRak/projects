@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "Bittypix-Countdown"; /* Имя шрифта */
+    src: url(fonts/Bittypix-Countdown.ttf); /* Путь к файлу со шрифтом */
+   }
+
+
+.calculator{
+    width: 500px;
+    height: 600px;
+    background: #1b215c;
+    margin: 30px auto;
+    border: 5px solid #999992;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 460px;
+    height: 80px;
+    border-radius: 50px;
+    outline: none;
+    margin: 20px auto;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 25px;
+    font-family: "Bittypix-Countdown";
+    border: none;
+}
+
+.controlers{
+    display: flex; 
+}
+.numbersPlase{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-left: 50px;
+}
+.operators{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color: red;
+}
+.number{
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    margin: 10px 15px;
+    background: #1b215c;
+    color: #fff;
+}
+button:focus{
+    outline: none;
+}
+button:active{
+    outline: none;
+    background: #131844;
+}
+.numberNull{
+    width: 170px;
+    height: 70px;
+    font-size: 25px;
+    margin: 10px 15px;
+    background: #1b215c;
+    color: #fff; 
+}
